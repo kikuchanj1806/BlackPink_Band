@@ -1,79 +1,71 @@
 /* PC */
-@media (max-width: 1024px){
-
+@media (max-width: 1024px) {
 }
 /* Tablet */
-@media (min-width: 740px) and (max-width: 1023px){
-
+@media (min-width: 740px) and (max-width: 1023px) {
 }
 /* Mobile */
-@media (max-width: 739px){
-    #nav{
-        display: block;
-    }
-    #nav > li{
-        display: block;
-    }
-    #nav li a{
-        padding: 1px 24px;
-    }
-    #nav > li:first-child{
-        display: inline-block;
-    }
-    #nav .subnav{
-        position: initial;
-    }
-    #nav .subnav a{
-        padding: 5px 41px;
-    }
-    #header{
-        overflow: hidden;
-    }  
-    #header .mobile-menu-btn{
-        display: block;
-    }
-    #header .search-button{
-        display: none;
-    }
-    #slider .text-content{
-        font-size: 19px;
-    }
-    #slider .text-content .text-slogan{
-        font-size: 15px;
-    }
-    #content .members-item{
-        margin-top: 30px;
-        width: 100%;
-        font-weight: 600;
-    }
-    #content .members-img{
-        width: 45%;
-    }
-    #content .places-item{
-        margin-top: 20px;
-        width: 100%;
-    }
-    #contact .col-half{
-        width: 100%;
-    }
+@media (max-width: 739px) {
+  #nav {
+    display: block;
+  }
+  #nav > li {
+    display: block;
+  }
+  #nav li a {
+    padding: 1px 24px;
+  }
+  #nav > li:first-child {
+    display: inline-block;
+  }
+  #nav .subnav {
+    position: initial;
+  }
+  #nav .subnav a {
+    padding: 5px 41px;
+  }
+  #header {
+    overflow: hidden;
+  }
+  #header .mobile-menu-btn {
+    display: block;
+  }
+  #header .search-button {
+    display: none;
+  }
+  #slider .text-content {
+    font-size: 19px;
+  }
+  #slider .text-content .text-slogan {
+    font-size: 15px;
+  }
+  #content .members-item {
+    margin-top: 30px;
+    width: 100%;
+    font-weight: 600;
+  }
+  #content .members-img {
+    width: 45%;
+  }
+  #content .places-item {
+    margin-top: 20px;
+    width: 100%;
+  }
+  #contact .col-half {
+    width: 100%;
+  }
 
-    #contact .contact-form{
-        margin-top: 16px;
-        margin-left: -9px;
-        margin-bottom: 100px;
-    }
-    #contact .contact-email{
-        margin-top: 8px;
-    }
-    #contact .form-submit-btn{
-        width: 100%;
-        -webkit-appearance: none;
-    
-    }
-    #tour .places-buy-btn{
-        width: 100%;
-        text-align: center;
-    }
-
-    
+  #contact .contact-form {
+    margin-top: 16px;
+    margin-left: -9px;
+    margin-bottom: 100px;
+  }
+  #contact .form-submit-btn {
+    width: 100%;
+    -webkit-appearance: none;
+  }
+  #tour .places-buy-btn {
+    width: 100%;
+    text-align: center;
+  }
 }
